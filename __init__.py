@@ -39,4 +39,4 @@ async def atall_handler(bot: Bot, matcher: Matcher, event: Event):
             logger.success(f"在群聊{group_id}中 尝试@全体")
             await bot.send(event, message=atall_segment)
         except Exception as e:
-            await bot.send(event, message="@全体次数不足或出错 "+atadmin_segment)
+            await bot.send(event, message="@全体次数不足 "+atadmin_segment)
