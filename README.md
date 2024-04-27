@@ -1,0 +1,2 @@
+# nonebot_plugin_ddbotatall
+基于nonebot2和onebotv11协议，为DDBOT-WS适配的简易At全体插件
